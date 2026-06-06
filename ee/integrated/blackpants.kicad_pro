@@ -39,9 +39,9 @@
         "other_text_thickness": 0.125,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.7,
-          "width": 1.7
+          "drill": 2.7,
+          "height": 5.4,
+          "width": 5.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -61,10 +61,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "courtyards_overlap|105165000|62755000|0aabcf94-0b1b-493b-b629-3b7396b45a67|3f0fc0dc-c391-47e9-ac4c-bc0809c56733",
-          ""
-        ],
         [
           "lib_footprint_mismatch|103700000|35365000|21b0bd5e-2f22-4246-9550-b0586c548a9c|00000000-0000-0000-0000-000000000000",
           ""
@@ -131,34 +127,6 @@
         ],
         [
           "silk_over_copper|66499793|112574700|f94bee0c-7957-4e57-b61c-e370100e47a9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|102070000|62850000|38de08bc-f3ab-438a-abba-997f755aa5b3|bd58e65b-9bfa-4051-accd-89d657da3e4e",
-          ""
-        ],
-        [
-          "silk_overlap|102070000|62850000|38de08bc-f3ab-438a-abba-997f755aa5b3|e1c55ebd-5b02-442c-94f9-50637f8c1343",
-          ""
-        ],
-        [
-          "silk_overlap|102070000|62850000|965e4703-a8d7-4312-ace3-fe1eb886c3f8|bd58e65b-9bfa-4051-accd-89d657da3e4e",
-          ""
-        ],
-        [
-          "silk_overlap|102070000|62850000|965e4703-a8d7-4312-ace3-fe1eb886c3f8|e1c55ebd-5b02-442c-94f9-50637f8c1343",
-          ""
-        ],
-        [
-          "silk_overlap|105070000|62850000|0717de6a-2c47-4df5-82e9-1c551911a2c8|38de08bc-f3ab-438a-abba-997f755aa5b3",
-          ""
-        ],
-        [
-          "silk_overlap|105070000|62850000|0717de6a-2c47-4df5-82e9-1c551911a2c8|f5e32c16-57c1-498c-9e04-835b63e87adf",
-          ""
-        ],
-        [
-          "silk_overlap|105070000|62850000|e1c55ebd-5b02-442c-94f9-50637f8c1343|f5e32c16-57c1-498c-9e04-835b63e87adf",
           ""
         ],
         [
@@ -685,7 +653,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "R0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1193,7 +1161,7 @@
       {
         "filename": "blackpants.kicad_sch",
         "name": "blackpants",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "d0a98fce-b133-4503-8f8a-83b2a1eed591"
       }
     ],
     "used_designators": "",
@@ -1202,7 +1170,7 @@
   "sheets": [
     [
       "d0a98fce-b133-4503-8f8a-83b2a1eed591",
-      "Root"
+      "blackpants"
     ],
     [
       "05158df8-c1e6-40b8-af8c-4aba99cbc568",
@@ -1219,6 +1187,38 @@
     [
       "773f8af3-a641-4fcc-9414-9cf290a67b77",
       "USB"
+    ],
+    [
+      "8df227e7-e4f0-4624-83cb-7ffc2dd20696",
+      "Hardware"
+    ],
+    [
+      "1b72ccf8-21bd-4dc7-b102-09d524005a44",
+      "PMIC"
+    ],
+    [
+      "00000000-0000-0000-0000-000060536da4",
+      "DDR3"
+    ],
+    [
+      "c2dd92bc-0e84-48d7-8115-16bbd6df4bef",
+      "DSI"
+    ],
+    [
+      "fab53de4-7204-457c-835c-8279fdeb92b8",
+      "A33_RAM"
+    ],
+    [
+      "00000000-0000-0000-0000-000060a30bff",
+      "A33_Power"
+    ],
+    [
+      "00000000-0000-0000-0000-00006063be69",
+      "A33_GPIO"
+    ],
+    [
+      "f07df6ab-98c9-4714-b4f4-69f8b205f45b",
+      "WiFi"
     ]
   ],
   "text_variables": {},
